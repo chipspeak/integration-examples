@@ -2,9 +2,9 @@ apiVersion: appstudio.redhat.com/v1beta1
 kind: IntegrationTestScenario
 metadata:
   name: example-fail
-  namespace: default
+  namespace: rh-ee-paoconno-tenant
 spec:
-  application: application-sample
+  application: test-application
   resolverRef:
     resolver: git
     params:
